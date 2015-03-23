@@ -15,8 +15,7 @@ from kazoo.client import KazooClient
 from kazoo.exceptions import SessionExpiredError
 from kazoo.handlers.threading import TimeoutError
 from kazoo.retry import KazooRetry
-from tornado.options import options
-from utils import getClusterUUID, get_zk_address, get_dict_from_text
+from utils import getClusterUUID, get_zk_address
 
 
 class ZkOpers(object):
